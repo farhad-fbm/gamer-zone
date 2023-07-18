@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
+}
+
+body {
+    margin: 20px;
+    border: 1px solid;
+}
+
+/* 
+/* navbar---------------------- */
+nav {
+    display: flex;
+    padding: 25px 10vw;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.logo-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+
+.logo-div img {
+    padding-right: .5vw;
+}
+
+span {
+    color: #FF42A5;
+}
+
+.nav-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-right li {
+    padding: 0px 0 15px 10px;
+}
+
+.follow-us {
+    height: 15px;
+    display: flex;
+    text-align: center;
+    background: rgba(11, 2, 35, 0.10);
+    border-radius: 5px;
+    padding: 5px;
+    margin: auto 0 15px 25px;
+
+}
+
+.follow-us img {
+    height: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive--------------------------------- */
+/* small------------------------------------ */
+@media screen and (max-width:576px) {
+    nav {
+        display: block;
+    }
+
+    .nav-right {
+        flex-direction: column;
+    }
+
+}
+
+
+/* medium-------------------------------- */
+@media screen and (min-width:576px) and (max-width:768px) {
+    nav{
+        flex-direction: column;
+    }
+}
