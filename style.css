@@ -1,28 +1,47 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
 
 * {
-    padding: 0;
-    margin: 0;
+    padding: 0px;
+    margin: 0px;
     font-family: 'Work Sans', sans-serif;
-    font-weight: 500;
+    font-weight: 400;
 }
 
-/* body {
-    margin: 20px;
-    border: 1px solid;
-} */
-
-/* 
-/* navbar---------------------- */
-nav {
-    display: flex;
-    padding: 15px 10vw;
-    justify-content: space-between;
-    align-items: center;
+h1 {
+    font-size: 5rem;
+    font-weight: 800;
 }
 
-nav li {
-    list-style: none;
+h2 {
+    font-size: 4rem;
+    font: 800;
+}
+
+h3 {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.color1 {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.cmn-btn {
+    height: 30px;
+    width: 80px;
+    border-radius: 10px;
+    border: none;
+    margin: 20px 5px;
+    color: white;
+    background-color: #FF42A5;
+}
+
+body {
+    margin: 1px;
+    border: 1px solid red;
 }
 
 a {
@@ -30,17 +49,27 @@ a {
     color: black;
 }
 
+
+/* nav------------------------------------- */
+.nav-bar {
+    display: flex;
+    padding: 40px 150px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-bar li {
+    list-style: none;
+}
+
+
 .logo-div {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 40px;
-    font-weight: 700;
-    padding-bottom: 30px;
+    font-size: 30px;
 }
 
 .logo-div img {
-    padding-right: .5vw;
+    padding-right: 10px;
 }
 
 span {
@@ -73,198 +102,134 @@ span {
 }
 
 
-/* banner-1----------------------------------------------- */
-.banner1 {
+
+
+/* banner-1 ---------------------*/
+.banner1-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    /* padding: 0vh 10vw; */
+    padding: 0px;
+
 }
 
-.bn1-about-container {
-    position: relative;
+.banner1-about .img-icon {
+    display: flex;
+    gap: 5px;
+    align-items: center;
 }
 
-.bn1-about-container>img {
-    height: 60vh;
-    width: 50vw;
-}
-
-.bn1-about {
-    position: absolute;
-    top: 25%;
-    left: 20%;
-    padding: 0 3vw;
-}
-
-.bn1-about h3 {
-    text-align: center;
-    font-size: 3rem;
-    font-weight: 600;
-}
-
-.bn1-about h1 {
-    text-align: center;
-    font-size: 6rem;
-    font-weight: 800;
-}
-
-pre img {
+.banner1-about .img-icon img {
     width: 1.5rem;
     height: 1.5rem;
 }
 
-.cmn-btn,
-.btn1 {
-    height: 30px;
-    width: 80px;
-    border-radius: 10px;
-    border: none;
-    margin: 20px 5px;
-    color: white;
-    background-color: #FF42A5;
+.btn2 {
+    background: #4EC5F7;
 }
 
-.btn1 {
-    background-color: #4EC5F7;
+.banner1-about {
+    background-image: url("./images/Group14.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 150px;
 }
 
-.bn1-img img {
-    height: 50vh;
-    width: 40vw;
-    padding-right: 10vw;
+.banner1-img img {
+    width: 350px;
+    height: 340px;
+    padding-right: 150px;
 }
 
-/* bnr2-------- */
-.banner2 {
-    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+
+/* banner-2--------------------- */
+.banner2-container {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    padding: 50px 150px 50px 50px;
+}
+
+.banner2-img>img {
+    width: 400px;
+    height: 200px;
+}
+
+.banner2-about {
     text-align: right;
-    padding:0 10vw;
 }
 
-.bnr2-img>img {
-    width: 50vw;
+.about-gamer {
+    font-size: 10px;
 }
 
-.bnr2-content h1 {
-    font-size: 45px;
-    font-weight: 700;
-    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    padding-bottom: 15px;
-
+.gamer-quote {
+    font-size: 2rem;
+    font-weight: 600;
+    color: rgb(70, 68, 68);
 }
 
-.bnr2-content {
-    color: #534C64;
-    ;
+/* online games */
+.online-games {
+    text-align: center;
+    padding-top: 50px;
 }
 
-.bnr2-content h3 {
-    font-size: 20px;
-    font-weight: 700;
+.online-games li {
+    list-style: none;
 }
 
+.online-games-title {
+    font-weight: 800;
+    font-size: 2.5rem;
+}
 
+.games-card-container {
+    width: 710px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 10px;
+    margin: auto;
+    padding: 30px 150px;
+}
 
+.games-card img {
+    width: 180px;
+    height: 200px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-/* Responsive--------------------------------- */
-/* small------------------------------------ */
-@media screen and (max-width:576px) {
-    nav {
-        display: block;
-    }
-
-    .nav-right {
-        flex-direction: column;
-    }
-
-    /* ----------- */
-    .banner1 {
-        flex-direction: column-reverse;
-        margin: 0 auto;
-        ;
-    }
-
-    .bn1-img img {
-        width: 70vw;
-        padding: 0 20vw;
-    }
-
-    .bn1-about-container>img {
-        width: 90vw;
-        padding: 0 20vw;
-    }
-
-    .bn1-about {
-        top: 10%;
-        left: 5%;
-        padding: 0 20vw;
-
-    }
-
-    /* --------- */
-    .banner2 {
-        flex-direction: column;
-        text-align: center;
-        background: none;
-        padding-left:30vw;
-    }
-
-    .bnr2-img>img {
-        width: 80vw;
-    }
+/* hover with icon ------------*/
+.games-card{
+    position: relative;
+    
 }
 
 
-/* medium-------------------------------------------------------- */
-@media screen and (min-width:576px) and (max-width:768px) {
-    nav {
-        flex-direction: column;
-    }
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .3s ease;
+    background: rgb(110, 106, 106);
 
-    .bn1-about-container>img {
-        height: 50vh;
-        width: 45vw;
-    }
+}
 
-    .bn1-about {
-        top: 5%;
-        left: 4%;
+.games-card:hover .overlay {
+    opacity: .8;
+}
 
-    }
-
-    .bn1-img img {
-        height: 50vh;
-        width: 45vw;
-    }
-
-    /* ------ */
-    /* --------- */
-    .banner2 {
-        flex-direction: column;
-        text-align: center;
-        background: none;
-    }
-
-    .bnr2-img>img {
-        width: 80vw;
-    }
+.icon {
+    /* color: white; */
+    font-size: 80px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
 }

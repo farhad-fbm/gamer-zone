@@ -4,21 +4,23 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Gamer Zone</title>
+    <script src="https://kit.fontawesome.com/af9a248080.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
     <link rel="icon" type="image/x-icon" href="./images/Frame.png" />
   </head>
   <body>
-    <!-- navbar----------------------------------------------- -->
-    <nav>
+    <!-- nav-bar -->
+    <nav class="nav-bar">
       <div class="logo-div">
-        <img src="./images/Frame.png" alt="gamer logo" />
-        <p><span>G</span>amer</p>
+        <img src="./images/Frame.png" alt="" />
+        <h2><span>G</span>amer</h2>
       </div>
       <div class="nav-right">
         <li><a href="#">About Us</a></li>
-        <li><a href="#">Depelopers</a></li>
+        <li><a href="#">Developers</a></li>
         <div class="follow-us">
-          <li>Follow Us On</li>
+          <li>Follow-Us On</li>
           <li>
             <a href="#"><img src="./images/Vector.png" alt="" /></a>
           </li>
@@ -28,50 +30,91 @@
         </div>
       </div>
     </nav>
-    <body>
-      <section class="banner1">
-        <div class="bn1-about-container">
-          <img src="./images/Group14.png" alt="" />
-          <div class="bn1-about">
-            <h3>PLAY LIKE THE</h3>
-            <h1>G.O.A.T</h1>
-            <pre><img src="./images/play-icon.png" alt="icon">  1-Click Instant play</pre>
-            <pre><img src="./images/dwn-icon.png" alt="icon">  No Download</pre>
-            <pre><img src="./images/people-icon.png" alt="icon">  1000s of supported online games</pre>
-            <button class="cmn-btn">SIGN IN</button>
-            <button class="btn1">GO ROGUE</button>
-          </div>
-        </div>
-        <div class="bn1-img">
-          <img src="./images/Group 18.png" alt="" />
-        </div>
-      </section>
-      <section class="banner2">
-        <div class="bnr2-img">
-          <img src="./images/pngwing 4.png" alt="" />
-        </div>
-        <div class="bnr2-content">
-          <h1>We are gamer</h1>
-          <pre>
-                An international digital games and entertainment 
-                company. We develop, publish and distribute multiplayer 
-                mobile games. We reach over 400 million players each 
-                month and our audience keeps growing.
-            </pre>
-            <button class="cmn-btn">KNOW MORE</button>
-            <p>Our purpose...</p>
-            <h3>“unleash the gamer in everyone”</h3>
-        </div>
-      </section>
-      <!-- videos -->
-      <section class="videos"></section>
-      <!-- play online -->
-      <section class="play-online"></section>
-      <!-- career -->
-      <section class="career"></section>
-      <!-- game catagory -->
-      <section class="catagory"></section>
-    </body>
-    <footer></footer>
+    <main>
+        <!-- banner1 -->
+        <section>
+            <div class="banner1-container">
+                    <div class="banner1-about">
+                        <h3>PLAY LIKE THE</h3>
+                        <h1 class="color1">G.O.A.T</h1>
+                        <div class="img-icon"><img src="./images/play-icon.png" alt=""><p>1-click instant play</p></div>
+                        <div class="img-icon"><img src="./images/dwn-icon.png" alt=""><p>No Download</p></div>
+                        <div class="img-icon"><img src="./images/people-icon.png" alt=""><p>1000s of supported online games</p></div>
+                        <button class="cmn-btn">SIGN IN</button>
+                        <button class="btn2 cmn-btn">GO ROGUE</button>
+                    </div>
+                <div class="banner1-img">
+                    <img src="./images/Group 18.png" alt="">
+                </div>
+            </div>
+        </section>
+        <!-- banner-2 -->
+        <section>
+            <div class="banner2-container">
+                <div class="banner2-img">
+                    <img src="./images/pngwing 4.png" alt="">
+                </div>
+                <div class="banner2-about">
+                    <h3 class="color1">We are gamer</h3>
+                    <p class="about-gamer">An international digital games and entertainment 
+                        <br>company. We develop, publish and distribute multiplayer 
+                        <br>mobile games. We reach over 400 million players each 
+                        <br>month and our audience keeps growing.
+                    </p>
+                    <button class="cmn-btn">KNOW MORE</button>
+                    <p class="purpose">Our Purpose...</p>
+                    <p class="gamer-quote">“unleash the gamer in everyone”</p>
+                </div>
+
+            </div>
+        </section>
+        <!-- Online games -->
+        <section>
+            <div class="online-games">
+                <h3 class="online-games-title">Online Games <span class="color1">Funny Videos</span></h3>
+                <p>A Collection of Hilarious Videos to Brighten Your Day</p>
+                <div class="games-card-container">
+                    <li>
+                        <div class="games-card">
+                            <img src="./images/Rectangle 4.png" alt="">
+                            <div class="overlay"><a href="#" class="icon"><i class="fa-solid fa-play"></i></a></div>
+                        </div>
+                        <p>No Download. No Installs. Play games Instantly on Gamer</p>
+                    </li>
+                    <li>
+                        <div class="games-card">
+                            <img src="./images/Rectangle 5.png" alt="">
+                            <div class="overlay"><a href="#" class="icon"><i class="fa-solid fa-play"></i></a></div>
+                        </div>
+                        <p>Did you score? #unblocked games #school</p>
+                    </li>
+                    <li>
+                        <div class="games-card">
+                            <img src="./images/Rectangle 6.png" alt="">
+                            <div class="overlay"><a href="#" class="icon"><i class="fa-solid fa-play"></i></a></div>
+                        </div>
+                        <p>Busted gaming on school laptop but you are still lit</p>
+                    </li>
+                    <li>
+                        <div class="games-card">
+                            <img src="./images/Rectangle 4.png" alt="">
+                            <div class="overlay"><a href="#" class="icon"><i class="fa-solid fa-play"></i></a></div>
+                        </div>
+                        <p>Breaking game records like OG</p>
+                    </li>
+
+
+                    
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+
+
+
+   
+
   </body>
 </html>

@@ -1,0 +1,122 @@
+/* SMALL---------------------------------------------- */
+@media screen and (max-width : 576px) {
+
+    /* nav------------------ */
+    .nav-bar {
+        flex-direction: column;
+        padding: 40px;
+        margin: auto;
+    }
+
+    .nav-right {
+        flex-direction: column;
+        padding-top: 25px;
+    }
+
+    /* banner-1 */
+    .banner1-container {
+        flex-direction: column-reverse;
+    }
+
+    .banner1-img img {
+        width: 250px;
+        height: 250px;
+        padding: 0px;
+    }
+
+    .banner1-about {
+        padding: 20px 15px;
+        background-size: 300px 350px;
+    }
+
+
+    /* banner-2 */
+    .banner2-container {
+        flex-direction: column;
+        background: none;
+        padding: 0px;
+    }
+
+    .banner2-img>img {
+        width: 250px;
+        height: 150px;
+        padding: 20px 30px;
+    }
+
+    .banner2-about {
+        text-align: center;
+    }
+
+    .gamer-quote {
+        font-size: 1.5rem;
+    }
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* medium-------------------------------------------- */
+@media screen and (min-width :576px) and (max-width : 768px) {
+    .nav-bar {
+        flex-direction: column;
+        padding: 40px;
+        margin: auto;
+    }
+
+    .nav-right {
+        padding-top: 25px;
+    }
+
+    /* banner -1---------------------- */
+    .banner1-container {
+        padding: 0 80px;
+        /* padding: 0px; */
+    }
+
+    .banner1-img img {
+        width: 250px;
+        height: 250px;
+        padding: 0px;
+    }
+
+    .banner1-about {
+        padding: 20px 15px;
+        background-size: 300px 350px;
+    }
+
+    /* banner-2--------------------------- */
+    .banner2-container {
+        padding: 60px;
+    }
+
+    .banner2-img>img {
+        width: 300px;
+        height: 200px;
+    }
+
+    .gamer-quote {
+        font-size: 1.5rem;
+    }
+}
