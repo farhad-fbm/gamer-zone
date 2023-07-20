@@ -44,7 +44,7 @@ h3 {
 }
 
 body {
-    margin: 1px;
+    margin: 20px;
     border: 1px solid red;
 }
 
@@ -236,62 +236,71 @@ a {
     align-items: center;
     gap: 120px;
     text-align: right;
-    margin: 40px 0;
+    margin: 100px 0;
 }
 
 .play-guide {
     margin-top: 20px;
 }
 
-.index-side-img img {
+.index-side-img1 img {
     width: 300px;
     height: 300px;
+}
+.index-side-img1{
     position: relative;
 }
 
-.index-img img {
+.index-img1 img {
     width: 130px;
     height: 140px;
     position: absolute;
-    left: 45%;
-    bottom: 10%;
     z-index: 1;
+    left: -30px;
+    bottom: -50px;
 }
 
 /* z-index2------------- */
-.z-index2 {
-    position: relative;
-    margin: 100px 0;
-}
 
 .index-flex2 {
     flex-direction: row-reverse;
+    margin: 100px 0;
+}
+
+.index-side-img2 img {
+    width: 300px;
+    height: 300px;
+}
+.index-side-img2{
+    position: relative;
 }
 
 .index-img2 img {
-    left: 40%;
-    bottom: -10%;
+    width: 130px;
+    height: 140px;
+    position: absolute;
+    z-index: 1;
+    right: -30px;
+    bottom: -50px;
 }
-
 
 
 
 /* careers----------- */
 .careers-container {
     display: flex;
-    justify-content: space-between ;
+    justify-content: space-between;
     align-items: center;
     list-style: none;
     background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
-    padding-left: 50px;
-
+    
 }
 
 .careers-about {
     color: white;
-    
     font-size: .8rem;
     text-align: left;
+    padding:0px 50px;
 }
 
 .opportunity {
@@ -314,8 +323,9 @@ a {
     color: #db4592;
     font-weight: 550;
     width: 130px;
+    margin-top: 40px;
 }
 
 .future-img img {
-    height: 500px;
+    height: 400px;
 }

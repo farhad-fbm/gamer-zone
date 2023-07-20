@@ -75,24 +75,47 @@
     }
 
 
-    /* z-index------------- */
+    /* z-index 1------------- */
     .index-flex1 {
         flex-direction: column;
         text-align: center;
-        /* position: relative;   */
     }
 
-    .index-side-img img {
+    .index-side-img1 img {
         width: 200px;
-        height: 200px; 
+        height: 200px;
     }
-    
-    .index-img img {
-        position: absolute;
+
+    .index-img1 img {
         width: 100px;
         height: 110px;
-        left: 20px;
-        bottom: -240%;
+    }
+
+    /* z-index2---------------- */
+
+    .index-side-img2 img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .index-img2 img {
+        width: 100px;
+        height: 110px;
+    }
+
+    /* careers------ */
+    .careers-container {
+        flex-direction: column;
+        padding-top: 30px;
+    }
+
+    .careers-about {
+        font-size: .6rem;
+        padding: 0px 50px;
+    }
+
+    .future-img img {
+        height: 230px;
     }
 
 }
@@ -115,61 +138,70 @@
 
 
 
-    /* medium-------------------------------------------- */
-    @media screen and (min-width :576px) and (max-width : 768px) {
-        .nav-bar {
-            flex-direction: column;
-            padding: 40px;
-            margin: auto;
-        }
-
-        .nav-right {
-            padding-top: 25px;
-        }
-
-        /* banner -1---------------------- */
-        .banner1-container {
-            padding: 0 80px;
-            /* padding: 0px; */
-        }
-
-        .banner1-img img {
-            width: 250px;
-            height: 250px;
-            padding: 0px;
-        }
-
-        .banner1-about {
-            padding: 20px 15px;
-            background-size: 300px 350px;
-        }
-
-        /* banner-2--------------------------- */
-        .banner2-container {
-            padding: 60px;
-        }
-
-        .banner2-img>img {
-            width: 300px;
-            height: 200px;
-        }
-
-        .gamer-quote {
-            font-size: 1.5rem;
-        }
-
-
-        /* online games---------- */
-        .games-card-container {
-            width: 400px;
-            grid-template-columns: repeat(2, 220px);
-            gap: 20px;
-            padding: 30px 50px;
-
-        }
-
-        .games-card img {
-            width: 220px;
-            height: 300px;
-        }
+/* medium-------------------------------------------- */
+@media screen and (min-width :576px) and (max-width : 768px) {
+    .nav-bar {
+        flex-direction: column;
+        padding: 40px;
+        margin: auto;
     }
+
+    .nav-right {
+        padding-top: 25px;
+    }
+
+    /* banner -1---------------------- */
+    .banner1-container {
+        padding: 0 80px;
+        /* padding: 0px; */
+    }
+
+    .banner1-img img {
+        width: 250px;
+        height: 250px;
+        padding: 0px;
+    }
+
+    .banner1-about {
+        padding: 20px 15px;
+        background-size: 300px 350px;
+    }
+
+    /* banner-2--------------------------- */
+    .banner2-container {
+        padding: 60px;
+    }
+
+    .banner2-img>img {
+        width: 300px;
+        height: 200px;
+    }
+
+    .gamer-quote {
+        font-size: 1.5rem;
+    }
+
+
+    /* online games---------- */
+    .games-card-container {
+        width: 400px;
+        grid-template-columns: repeat(2, 220px);
+        gap: 20px;
+        padding: 30px 50px;
+
+    }
+
+    .games-card img {
+        width: 220px;
+        height: 300px;
+    }
+
+    /* careers------ */
+    .careers-about {
+        font-size: .6rem;
+    }
+
+    .future-img img {
+        height: 300px;
+    }
+}
