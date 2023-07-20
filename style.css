@@ -18,8 +18,8 @@ h2 {
 }
 
 h3 {
-    font-size: 2rem;
-    font-weight: 600;
+    font-size: 2.5rem;
+    font-weight: 700;
 }
 
 .color1 {
@@ -254,7 +254,7 @@ a {
     height: 140px;
     position: absolute;
     left: 45%;
-    bottom: -70%;
+    bottom: 10%;
     z-index: 1;
 }
 
@@ -268,7 +268,54 @@ a {
     flex-direction: row-reverse;
 }
 
-.index-img2 img{
+.index-img2 img {
     left: 40%;
     bottom: -10%;
+}
+
+
+
+
+/* careers----------- */
+.careers-container {
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    list-style: none;
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    padding-left: 50px;
+
+}
+
+.careers-about {
+    color: white;
+    
+    font-size: .8rem;
+    text-align: left;
+}
+
+.opportunity {
+    display: flex;
+    padding-top: 50px;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.skills {
+    text-align: left;
+}
+
+.region {
+    text-align: right;
+}
+
+.careers-btn {
+    background: white;
+    color: #db4592;
+    font-weight: 550;
+    width: 130px;
+}
+
+.future-img img {
+    height: 500px;
 }
