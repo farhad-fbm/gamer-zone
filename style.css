@@ -43,10 +43,10 @@ h3 {
     background-color: #FF42A5;
 }
 
-body {
+/* body {
     margin: 20px;
     border: 1px solid red;
-}
+} */
 
 a {
     text-decoration: none;
@@ -57,8 +57,8 @@ a {
 /* nav------------------------------------- */
 .nav-bar {
     display: flex;
-    padding: 40px 150px;
-    justify-content: space-between;
+    padding: 40px 0px;
+    justify-content: space-around;
     align-items: center;
 }
 
