@@ -218,6 +218,7 @@ a {
 
 .games-card:hover .overlay {
     opacity: .8;
+    border: 3px solid #FF42A5;
 }
 
 .icon {
@@ -328,4 +329,34 @@ a {
 
 .future-img img {
     height: 400px;
+}
+
+
+
+/* games types */
+.types-container{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(5,150px);
+    justify-content: center;
+    align-items: center;
+    row-gap: 30px;
+    margin: auto 0px;
+    text-align: center;
+    padding: 50px 0px;
+}
+.games-container{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 3px;
+}
+.games-container img{
+    width: 30px;
+    height: 30px;
+}
+.games-container:hover {
+    border:1px solid #FF42A5;
+    color: #FF42A5;
+    border-radius: 20px;
 }
