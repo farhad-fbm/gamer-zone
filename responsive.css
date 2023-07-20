@@ -167,7 +167,8 @@
 
 
 
-/* medium-------------------------------------------- */
+/* medium-------------------------------------------------------------------------------------- */
+/* --------------------------------------------------------------------------------------------- */
 @media screen and (min-width :576px) and (max-width : 768px) {
     .nav-bar {
         flex-direction: column;
@@ -181,8 +182,7 @@
 
     /* banner -1---------------------- */
     .banner1-container {
-        padding: 0 80px;
-        /* padding: 0px; */
+        justify-content: space-around;
     }
 
     .banner1-img img {
