@@ -51,6 +51,28 @@
         font-size: 1.5rem;
     }
 
+    /* online games---------- */
+    .games-card-container {
+        width: 180px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 0px;
+
+    }
+
+    .games-card-content {
+        width: 180px;
+        height: 300px;
+    }
+
+    .online-games-title {
+        font-size: 1.5rem;
+    }
+
+    .online-collection {
+        font-size: 10px;
+    }
 
 
 
@@ -118,5 +140,20 @@
 
     .gamer-quote {
         font-size: 1.5rem;
+    }
+
+
+    /* online games---------- */
+    .games-card-container {
+        width: 400px;
+        grid-template-columns: repeat(2, 220px);
+        gap: 20px;
+        padding: 30px 50px;
+
+    }
+
+    .games-card img{
+        width: 220px;
+        height: 300px;
     }
 }

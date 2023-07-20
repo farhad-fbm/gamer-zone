@@ -169,7 +169,7 @@ span {
     color: rgb(70, 68, 68);
 }
 
-/* online games */
+/* online games ----------------*/
 .online-games {
     text-align: center;
     padding-top: 50px;
@@ -185,17 +185,17 @@ span {
 }
 
 .games-card-container {
-    width: 710px;
+    width: 700px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     column-gap: 10px;
-    margin: auto;
+    margin: 0 auto;
     padding: 30px 150px;
 }
 
 .games-card img {
-    width: 180px;
-    height: 200px;
+    width: 170px;
+    height: 230px;
 }
 
 /* hover with icon ------------*/
@@ -203,16 +203,12 @@ span {
     position: relative;
     
 }
-
-
 .overlay {
     position: absolute;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
-    height: 100%;
-    width: 100%;
     opacity: 0;
     transition: .3s ease;
     background: rgb(110, 106, 106);
@@ -224,12 +220,8 @@ span {
 }
 
 .icon {
-    /* color: white; */
     font-size: 80px;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    text-align: center;
+    top: 30%;
+    left: 35%;
 }
