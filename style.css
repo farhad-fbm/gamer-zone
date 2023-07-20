@@ -217,6 +217,7 @@ a {
 .overlay p{
     font-size: 15px;
     font-weight: 600;
+    /* color: #FF42A5; */
 }
 
 .games-card:hover .overlay {
