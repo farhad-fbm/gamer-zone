@@ -75,85 +75,101 @@
     }
 
 
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* medium-------------------------------------------- */
-@media screen and (min-width :576px) and (max-width : 768px) {
-    .nav-bar {
+    /* z-index------------- */
+    .index-flex1 {
         flex-direction: column;
-        padding: 40px;
-        margin: auto;
+        text-align: center;
+        /* position: relative;   */
     }
 
-    .nav-right {
-        padding-top: 25px;
+    .index-side-img img {
+        width: 200px;
+        height: 200px; 
+    }
+    
+    .index-img img {
+        position: absolute;
+        width: 100px;
+        height: 110px;
+        left: 20px;
+        bottom: -240%;
     }
 
-    /* banner -1---------------------- */
-    .banner1-container {
-        padding: 0 80px;
-        /* padding: 0px; */
-    }
-
-    .banner1-img img {
-        width: 250px;
-        height: 250px;
-        padding: 0px;
-    }
-
-    .banner1-about {
-        padding: 20px 15px;
-        background-size: 300px 350px;
-    }
-
-    /* banner-2--------------------------- */
-    .banner2-container {
-        padding: 60px;
-    }
-
-    .banner2-img>img {
-        width: 300px;
-        height: 200px;
-    }
-
-    .gamer-quote {
-        font-size: 1.5rem;
-    }
-
-
-    /* online games---------- */
-    .games-card-container {
-        width: 400px;
-        grid-template-columns: repeat(2, 220px);
-        gap: 20px;
-        padding: 30px 50px;
-
-    }
-
-    .games-card img{
-        width: 220px;
-        height: 300px;
-    }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* medium-------------------------------------------- */
+    @media screen and (min-width :576px) and (max-width : 768px) {
+        .nav-bar {
+            flex-direction: column;
+            padding: 40px;
+            margin: auto;
+        }
+
+        .nav-right {
+            padding-top: 25px;
+        }
+
+        /* banner -1---------------------- */
+        .banner1-container {
+            padding: 0 80px;
+            /* padding: 0px; */
+        }
+
+        .banner1-img img {
+            width: 250px;
+            height: 250px;
+            padding: 0px;
+        }
+
+        .banner1-about {
+            padding: 20px 15px;
+            background-size: 300px 350px;
+        }
+
+        /* banner-2--------------------------- */
+        .banner2-container {
+            padding: 60px;
+        }
+
+        .banner2-img>img {
+            width: 300px;
+            height: 200px;
+        }
+
+        .gamer-quote {
+            font-size: 1.5rem;
+        }
+
+
+        /* online games---------- */
+        .games-card-container {
+            width: 400px;
+            grid-template-columns: repeat(2, 220px);
+            gap: 20px;
+            padding: 30px 50px;
+
+        }
+
+        .games-card img {
+            width: 220px;
+            height: 300px;
+        }
+    }
