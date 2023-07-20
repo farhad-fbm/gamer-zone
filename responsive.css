@@ -126,6 +126,30 @@
 
     }
 
+    /* footer */
+    footer {
+        padding: 20px 0;
+        font-size: .6rem;
+    }
+
+    .about-link,
+    .join-us,
+    .policy {
+        display: flex;
+        justify-content: center;
+        gap: 5px;
+        align-items: center;
+        padding: 5px 0px;
+    }
+
+    .join-us img {
+        width: 20px;
+    }
+
+    .copy-right {
+        padding-top: 20px;
+    }
+
 }
 
 
@@ -215,5 +239,11 @@
         grid-template-columns: repeat(4, auto);
         gap: 5px;
 
+    }
+
+    /* footer */
+    footer {
+        padding: 70px 0;
+        font-size: .8rem;
     }
 }

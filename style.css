@@ -213,7 +213,11 @@ a {
     opacity: 0;
     transition: .3s ease;
     background: rgb(110, 106, 106);
-
+   
+}
+.overlay p{
+    font-size: 15px;
+    font-weight: 600;
 }
 
 .games-card:hover .overlay {
@@ -225,7 +229,7 @@ a {
     font-size: 80px;
     position: absolute;
     top: 30%;
-    left: 35%;
+    left: 25%;
 }
 
 
@@ -391,6 +395,11 @@ footer a{
 .copy-right{
     padding-top: 50px;
     color: #8758F1;
+}
+
+.join-us img{
+
+    width: 40px;
 }
 
 
