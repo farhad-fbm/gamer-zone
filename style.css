@@ -265,7 +265,7 @@ a {
 .index-flex2 {
     flex-direction: row-reverse;
     margin: auto;
-    padding-bottom: 150px;
+    padding: 150px 0;
 }
 
 .index-side-img2 img {

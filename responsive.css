@@ -81,6 +81,7 @@
     .index-flex1 {
         flex-direction: column;
         text-align: center;
+        gap: 50px;
     }
 
     .index-side-img1 img {
