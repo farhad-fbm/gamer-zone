@@ -107,7 +107,7 @@ a {
 /* banner-1 ---------------------*/
 .banner1-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
     padding: 0px;
 
@@ -138,7 +138,6 @@ a {
 .banner1-img img {
     width: 350px;
     height: 340px;
-    padding-right: 150px;
 }
 
 
@@ -148,6 +147,7 @@ a {
     justify-content: space-between;
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
     padding: 50px 150px 50px 50px;
+    margin: auto;
 }
 
 .banner2-img>img {
@@ -190,7 +190,6 @@ a {
     grid-template-columns: repeat(4, 1fr);
     column-gap: 10px;
     margin: 0 auto;
-    padding: 30px 150px;
 }
 
 .games-card img {
@@ -241,7 +240,8 @@ a {
     align-items: center;
     gap: 120px;
     text-align: right;
-    margin: 100px 0;
+    margin: auto;
+    padding-top: 100px;
 }
 
 .play-guide {
@@ -269,7 +269,8 @@ a {
 
 .index-flex2 {
     flex-direction: row-reverse;
-    margin: 100px 0;
+    margin: auto;
+    padding-bottom: 150px;
 }
 
 .index-side-img2 img {
